@@ -1,4 +1,3 @@
-
 #Code and Developed by Caleb Gucciardi
 #A PasswordList Generetor that use KeyWords 
 
@@ -41,6 +40,8 @@ def MAKE(com):
     seed.pop(0)
     for sd in seed:
         BL(sd)
+        BL(sd.lower())
+        BL(sd.upper())
         
     
 def BL(seed):
@@ -48,8 +49,6 @@ def BL(seed):
     f=open(file,"a+")
     f.write("123{}\n".format(seed))
     f.write("{}1234\n".format(seed))
-    f.write("{}1234\n".format(seed.lower()))
-    f.write("{}1234\n".format(seed.upper()))
     f.write("{}TheKing\n".format(seed))
     f.write("123{}\n".format(seed))
     f.write("Master{}\n".format(seed))
@@ -81,12 +80,6 @@ def BL(seed):
     f.write("{}{}\n".format(old,seed))
     f.write("{}{}\n".format(old.upper(),seed))
     f.write("{}{}\n".format(old.lower(),seed))
-    f.write("{}{}\n".format(old,seed.upper()))
-    f.write("{}{}\n".format(old,seed.lower()))
-    f.write("{}{}\n".format(old.upper(),seed.lower()))
-    f.write("{}{}\n".format(old.lower(),seed.upper()))
-    f.write("{}{}\n".format(old.lower(),seed.lower()))
-    f.write("{}{}\n".format(old.upper(),seed.upper()))
     f.write("{}99\n".format(seed))
     f.write("{}98\n".format(seed))
     f.write("{}69\n".format(seed))
@@ -110,10 +103,6 @@ def BL(seed):
     f.write("hack{}\n".format(seed))
     f.write("NobodyLove{}\n".format(seed))
     f.write("nobodylove{}\n".format(seed))
-    f.write("NobodyLove{}\n".format(seed.upper()))
-    f.write("nobodylove{}\n".format(seed.upper()))
-    f.write("NobodyLove{}\n".format(seed.lower()))
-    f.write("nobodylove{}\n".format(seed.lower()))
     f.write("{}666\n".format(seed))
     f.write("$${}$$\n".format(seed))
     f.write("@@{}@@\n".format(seed))
