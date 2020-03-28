@@ -6,4 +6,19 @@ Using #BruteList you can create a list of passwords consistent with the passions
 
 >I created this script for educational purposes only, do not use it for illegal actions, I take no responsibility for the actions performed with this code.
 
+# Commands
 
+#### start the script:
+```$ ./BruteList.py ```
+
+#### display all the commands:
+``` BL:: help ``` 
+
+#### set the name of the output file:
+``` BL:: SET [name] ```  
+
+#### make the Dictionary with the specif seeds:
+``` BL:: MAKE [seed 0] [seed 1] ... ```  
+
+#### exit from BruteList:
+``` BL:: CLOSE ```  
