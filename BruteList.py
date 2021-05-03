@@ -42,8 +42,7 @@ def MAKE(com):
         BL(sd)
         BL(sd.lower())
         BL(sd.upper())
-        
-    
+
 def BL(seed):
     global file,old
     f=open(file,"a+")
