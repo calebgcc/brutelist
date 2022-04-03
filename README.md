@@ -1,4 +1,16 @@
 # brutelist
+                         TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT                
+                         TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT                 
+                                               TTTT                                  
+   BBBBBBBBB       RRRRRRRRRR    UU       UU   TTTT    EEEEEEEEEE       
+   BB      B       RR       R    UU       UU   TTTT   EEEE                
+   BB      B       RR       R    UU       UU   TTTT   EEE                
+   BB      B       RRRRRRRRRR    UU       UU   TTTT   EEEEEEEEE         
+   BBBBBBBBBBBBB   RR   R R      UU       UU   TTTT   EEEEEEEEE         
+   BB          B   RR    R R     UU       UU   TTTT   EEE                
+   BB          B   RR     R R    UU       UU   TTTT   EEEE                
+   BBBBBBBBBBBBB   RR      R R   UUUUUUUUUUU   TTTT    EEEEEEEEEE         
+
 Make Password Dictionaries through seeds;
 
 Need a list of passwords for a dictionary attack?
